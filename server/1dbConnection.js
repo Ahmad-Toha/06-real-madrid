@@ -9,14 +9,16 @@ dotenv.config();
 
 // mongo db connection
 const dbConnection = async () => {
-  await mongoose.connect(process.env.MONGOURL);
-};
-dbConnection()
-  .then(() => {
+  try {
+    await mongoose.connect(process.env.MONGOURL, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
     console.log("mongo db connected successfully");
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+  } catch (error) {
+    console.error("mongo db connection failed:", error);
+    process.exit(1);
+  }
+};
 
-export default dbConnection;
+dbConnection();
