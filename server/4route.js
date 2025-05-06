@@ -11,12 +11,6 @@ import { remove } from "./3controller.js";
 // route setup
 const route = express.Router();
 
-// error route
-route.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).send("something broke!");
-});
-
 // routes
 route.get("/", getAll);
 route.post("/add", create);
