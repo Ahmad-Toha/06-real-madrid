@@ -22,7 +22,7 @@ const Add = () => {
   const submitForm = async (event) => {
     event.preventDefault();
     try {
-      axios.post("https://real-madrid-server.vercel.app/api/add", newPlayer);
+      axios.post("https://real-madrid-server.vercel.app/add", newPlayer);
       navigate("/");
       setNewPlayer({
         name: "",

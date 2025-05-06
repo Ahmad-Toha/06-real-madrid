@@ -10,9 +10,7 @@ const Home = () => {
 
   useEffect(() => {
     const getData = async () => {
-      const response = await axios.get(
-        "https://real-madrid-server.vercel.app/api"
-      );
+      const response = await axios.get("https://real-madrid-server.vercel.app");
       setPlayers(response.data);
     };
     getData();
@@ -21,7 +19,7 @@ const Home = () => {
   const remove = async (playerId) => {
     try {
       await axios.delete(
-        `https://real-madrid-server.vercel.app/api/remove/${playerId}`
+        `https://real-madrid-server.vercel.app/remove/${playerId}`
       );
       setPlayers((allPlayers) => {
         return allPlayers.filter((player) => playerId !== player._id);
