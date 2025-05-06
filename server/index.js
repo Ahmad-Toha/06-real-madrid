@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 
 // import files
-import route from "./5route.js";
+import route from "./4route.js";
 import dbConnection from "./1dbConnection.js";
 
 // express setup

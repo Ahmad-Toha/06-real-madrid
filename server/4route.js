@@ -2,11 +2,11 @@
 import express from "express";
 
 // import controllers
-import { getAll } from "./4controller.js";
-import { create } from "./4controller.js";
-import { getOne } from "./4controller.js";
-import { update } from "./4controller.js";
-import { remove } from "./4controller.js";
+import { getAll } from "./3controller.js";
+import { create } from "./3controller.js";
+import { getOne } from "./3controller.js";
+import { update } from "./3controller.js";
+import { remove } from "./3controller.js";
 
 // route setup
 const route = express.Router();
