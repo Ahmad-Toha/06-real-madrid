@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // home route
 app.get("/", (req, res) => {
-  res.send(server);
+  res.send("server");
 });
 
 // express routes setup
