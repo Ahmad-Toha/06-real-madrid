@@ -10,7 +10,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon 6server.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
