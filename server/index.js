@@ -18,6 +18,11 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// home route
+app.get("/", (req, res) => {
+  res.send(server);
+});
+
 // express routes setup
 app.use("/api", route);
 
