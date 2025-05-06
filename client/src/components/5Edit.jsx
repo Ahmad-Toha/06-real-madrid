@@ -18,7 +18,7 @@ const Edit = () => {
     const getData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3000/api/detail/${id}`
+          `https://real-madrid-server.vercel.app/api/detail/${id}`
         );
         setUpdatePlayer(response.data);
       } catch (error) {
@@ -36,7 +36,10 @@ const Edit = () => {
   const submitForm = async (event) => {
     event.preventDefault();
     try {
-      await axios.put(`http://localhost:3000/api/edit/${id}`, updatePlayer);
+      await axios.put(
+        `https://real-madrid-server.vercel.app//api/edit/${id}`,
+        updatePlayer
+      );
       navigate("/");
     } catch (error) {
       console.log(error);
