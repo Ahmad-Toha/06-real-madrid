@@ -23,7 +23,7 @@
 .add-form h1 {
   text-align: center;
   text-transform: uppercase;
-  color: rgb(236, 182, 7);
+  color: rgb(86, 85, 81);
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -59,7 +59,8 @@
   font-size: 1.1rem;
   font-weight: 500;
   width: 13rem;
-  background-color: rgb(255, 196, 0);
+  color: white;
+  background-color: rgb(86, 85, 81);
   padding: 0.8rem;
   border: none;
   border-radius: 0.3rem;
