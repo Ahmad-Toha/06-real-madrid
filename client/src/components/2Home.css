@@ -19,7 +19,7 @@
   text-align: center;
   padding: 1.5rem;
   color: black;
-  background-color: rgb(245, 191, 13);
+  background-color: rgb(255, 255, 255);
 }
 
 .cards {
@@ -37,9 +37,10 @@
 .card {
   width: 19.2%;
   height: 38rem;
-  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background-color: rgb(77, 74, 74);
   padding-bottom: 0.6rem;
-  border: 0.3rem solid rgb(236, 182, 7);
+  border: 0.3rem solid rgb(255, 255, 255);
 }
 
 .player-img {
@@ -78,7 +79,7 @@
 #add-card i {
   font-size: 12rem;
   text-align: center;
-  color: rgb(236, 182, 7);
+  color: rgb(255, 255, 255);
   margin-top: 12rem;
   margin-left: 5rem;
 }
@@ -97,7 +98,8 @@
   width: 8rem;
   height: 2rem;
   font-weight: 500;
-  background-color: rgb(236, 182, 7);
+  color: black;
+  background-color: rgb(255, 255, 255);
   border: none;
   border-radius: 0.2rem;
   cursor: pointer;
@@ -107,7 +109,7 @@
   width: 8rem;
   height: 2rem;
   font-weight: 600;
-  color: rgb(236, 182, 7);
+  color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
   border: none;
   border-radius: 0.2rem;
