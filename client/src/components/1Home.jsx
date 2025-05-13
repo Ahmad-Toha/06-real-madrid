@@ -56,13 +56,16 @@ const Home = () => {
                 </p>
                 <div className="action-div">
                   <Link to={`/edit/${player._id}`}>
-                    <button className="edit-button">EDIT</button>
+                    <button className="edit-button" disabled>
+                      EDIT
+                    </button>
                   </Link>
                   <button
                     className="delete-button"
                     onClick={() => {
                       remove(player._id);
                     }}
+                    disabled
                   >
                     DELETE
                   </button>
