@@ -1,6 +1,125 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 350px) {
+  * {
+    font-family: "Quicksand", sans-serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .home-page {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgb(255, 255, 255) !important;
+  }
+
+  .home-title {
+    text-align: center !important;
+    padding: 1.5rem !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(0, 0, 0) !important;
+  }
+
+  .cards {
+    width: 100% !important;
+    margin-top: 3.5rem !important;
+    margin-bottom: 3.5rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    display: block !important;
+  }
+
+  .card {
+    width: 75% !important;
+    height: 25rem !important;
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(255, 255, 255) !important;
+    padding-bottom: 0.6rem !important;
+    margin: 0 auto 2rem auto !important;
+    box-shadow: 0.1rem 0.1rem 0.3rem black !important;
+  }
+
+  .player-img {
+    width: 100% !important;
+    height: 65% !important;
+    object-fit: cover !important;
+    object-position: top !important;
+  }
+
+  .player-name {
+    font-size: 0.9rem;
+    margin-top: 0.6rem !important;
+    margin-left: 0.8rem !important;
+  }
+
+  .player-position {
+    font-size: 0.9rem;
+    margin-top: 0.2rem !important;
+    margin-left: 0.8rem !important;
+  }
+
+  .player-jersy {
+    font-size: 0.9rem;
+    margin-top: 0.2rem !important;
+    margin-left: 0.8rem !important;
+  }
+
+  .player-country {
+    font-size: 0.9rem;
+    margin-top: 0.2rem !important;
+    margin-left: 0.8rem !important;
+  }
+
+  .action-div {
+    height: 1.5rem !important;
+    margin-top: 0.6rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+  }
+
+  .action-div .edit-button {
+    width: 5rem !important;
+    height: 1.5rem !important;
+    font-weight: 500 !important;
+    color: rgb(0, 0, 0) !important;
+    background-color: transparent !important;
+    border: 0.1rem solid rgb(0, 0, 0) !important;
+    border-radius: 0.2rem !important;
+    cursor: pointer !important;
+  }
+
+  .action-div .delete-button {
+    width: 5rem !important;
+    height: 1.5rem !important;
+    font-weight: 600 !important;
+    color: rgb(0, 0, 0) !important;
+    background-color: transparent !important;
+    border: 0.1rem solid rgb(0, 0, 0) !important;
+    border-radius: 0.2rem !important;
+    cursor: pointer !important;
+  }
+
+  #add-card {
+    text-decoration: none !important;
+    background-color: rgb(255, 255, 255) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #add-card i {
+    font-size: 15rem !important;
+    color: rgb(0, 0, 0) !important;
+  }
+}
+
+@media only screen and (min-width: 350px) {
+}
+
+@media only screen and (min-width: 450px) {
   * {
     font-family: "Quicksand", sans-serif !important;
     margin: 0 !important;
@@ -67,18 +186,6 @@
     margin-left: 0.8rem !important;
   }
 
-  #add-card {
-    text-decoration: none !important;
-    background-color: rgb(255, 255, 255) !important;
-  }
-
-  #add-card i {
-    font-size: 15rem !important;
-    color: rgb(0, 0, 0) !important;
-    margin-top: 6rem !important;
-    margin-left: 5rem !important;
-  }
-
   .action-div {
     height: 2.5rem !important;
     margin-top: 0.5rem !important;
@@ -109,15 +216,19 @@
     border-radius: 0.2rem !important;
     cursor: pointer !important;
   }
-}
 
-@media only screen and (min-width: 600px) {
-}
-@media only screen and (min-width: 768px) {
-}
-@media only screen and (min-width: 992px) {
-}
-@media only screen and (min-width: 1200px) {
+  #add-card {
+    text-decoration: none !important;
+    background-color: rgb(255, 255, 255) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #add-card i {
+    font-size: 15rem !important;
+    color: rgb(0, 0, 0) !important;
+  }
 }
 
 * {
