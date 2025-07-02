@@ -496,104 +496,6 @@
   }
 }
 
-@media only screen and (min-width: 750px) {
-  .cards {
-    width: 100% !important;
-    margin-top: 3rem !important;
-    margin-bottom: 3rem !important;
-    padding-left: 2.5rem !important;
-    padding-right: 2.5rem !important;
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: 0.5rem !important;
-  }
-
-  .card {
-    width: 48% !important;
-    height: 28rem !important;
-    color: rgb(0, 0, 0) !important;
-    background-color: rgb(255, 255, 255) !important;
-    padding-bottom: 0.6rem !important;
-    margin: 0 auto 1rem auto !important;
-    box-shadow: 0.1rem 0.1rem 0.3rem black !important;
-  }
-
-  .player-img {
-    width: 100% !important;
-    height: 65% !important;
-    object-fit: cover !important;
-    object-position: top !important;
-  }
-
-  .player-name {
-    font-size: 1rem !important;
-    margin-top: 0.6rem !important;
-    margin-left: 0.8rem !important;
-  }
-
-  .player-position {
-    font-size: 1rem !important;
-    margin-top: 0.2rem !important;
-    margin-left: 0.8rem !important;
-  }
-
-  .player-jersy {
-    font-size: 1rem !important;
-    margin-top: 0.2rem !important;
-    margin-left: 0.8rem !important;
-  }
-
-  .player-country {
-    font-size: 1rem !important;
-    margin-top: 0.2rem !important;
-    margin-left: 0.8rem !important;
-  }
-
-  .action-div {
-    height: 2.5rem !important;
-    margin-top: 0.5rem !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    gap: 0.8rem !important;
-  }
-
-  .action-div .edit-button {
-    width: 7rem !important;
-    height: 1.8rem !important;
-    font-weight: 500 !important;
-    color: rgb(0, 0, 0) !important;
-    background-color: transparent !important;
-    border: 0.1rem solid rgb(0, 0, 0) !important;
-    border-radius: 0.2rem !important;
-    cursor: pointer !important;
-  }
-
-  .action-div .delete-button {
-    width: 7rem !important;
-    height: 1.8rem !important;
-    font-weight: 600 !important;
-    color: rgb(0, 0, 0) !important;
-    background-color: transparent !important;
-    border: 0.1rem solid rgb(0, 0, 0) !important;
-    border-radius: 0.2rem !important;
-    cursor: pointer !important;
-  }
-
-  #add-card {
-    text-decoration: none !important;
-    background-color: rgb(255, 255, 255) !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #add-card i {
-    font-size: 15rem !important;
-    color: rgb(0, 0, 0) !important;
-  }
-}
-
 @media only screen and (min-width: 1250px) {
   .cards {
     width: 100% !important;
@@ -645,7 +547,7 @@
 
   .action-div {
     height: 2rem !important;
-    margin-top: 1rem !important;
+    margin-top: 1.1rem !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -653,7 +555,7 @@
   }
 
   .action-div .edit-button {
-    width: 7rem !important;
+    width: 7.5rem !important;
     height: 2rem !important;
     font-weight: 500 !important;
     color: rgb(0, 0, 0) !important;
@@ -664,7 +566,7 @@
   }
 
   .action-div .delete-button {
-    width: 7rem !important;
+    width: 7.5rem !important;
     height: 2rem !important;
     font-weight: 600 !important;
     color: rgb(0, 0, 0) !important;
