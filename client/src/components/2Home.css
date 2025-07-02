@@ -117,6 +117,115 @@
 }
 
 @media only screen and (min-width: 350px) {
+  * {
+    font-family: "Quicksand", sans-serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .home-page {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgb(255, 255, 255) !important;
+  }
+
+  .home-title {
+    text-align: center !important;
+    padding: 1.5rem !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(0, 0, 0) !important;
+  }
+
+  .cards {
+    width: 100% !important;
+    margin-top: 3.5rem !important;
+    margin-bottom: 3.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    display: block !important;
+  }
+
+  .card {
+    width: 80% !important;
+    height: 25rem !important;
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(255, 255, 255) !important;
+    padding-bottom: 0.6rem !important;
+    margin: 0 auto 2rem auto !important;
+    box-shadow: 0.1rem 0.1rem 0.3rem black !important;
+  }
+
+  .player-img {
+    width: 100% !important;
+    height: 65% !important;
+    object-fit: cover !important;
+    object-position: top !important;
+  }
+
+  .player-name {
+    margin-top: 0.6rem !important;
+    margin-left: 0.8rem !important;
+  }
+
+  .player-position {
+    margin-top: 0.2rem !important;
+    margin-left: 0.8rem !important;
+  }
+
+  .player-jersy {
+    margin-top: 0.2rem !important;
+    margin-left: 0.8rem !important;
+  }
+
+  .player-country {
+    margin-top: 0.2rem !important;
+    margin-left: 0.8rem !important;
+  }
+
+  .action-div {
+    height: 1.5rem !important;
+    margin-top: 0.5rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0.8rem !important;
+  }
+
+  .action-div .edit-button {
+    width: 6rem !important;
+    height: 1.5rem !important;
+    font-weight: 500 !important;
+    color: rgb(0, 0, 0) !important;
+    background-color: transparent !important;
+    border: 0.1rem solid rgb(0, 0, 0) !important;
+    border-radius: 0.2rem !important;
+    cursor: pointer !important;
+  }
+
+  .action-div .delete-button {
+    width: 6rem !important;
+    height: 1.5rem !important;
+    font-weight: 600 !important;
+    color: rgb(0, 0, 0) !important;
+    background-color: transparent !important;
+    border: 0.1rem solid rgb(0, 0, 0) !important;
+    border-radius: 0.2rem !important;
+    cursor: pointer !important;
+  }
+
+  #add-card {
+    text-decoration: none !important;
+    background-color: rgb(255, 255, 255) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #add-card i {
+    font-size: 15rem !important;
+    color: rgb(0, 0, 0) !important;
+  }
 }
 
 @media only screen and (min-width: 450px) {
@@ -231,7 +340,7 @@
   }
 }
 
-* {
+/* * {
   font-family: "Quicksand", sans-serif;
   margin: 0;
   padding: 0;
@@ -343,4 +452,4 @@
   border: 0.1rem solid rgb(0, 0, 0);
   border-radius: 0.2rem;
   cursor: pointer;
-}
+} */
