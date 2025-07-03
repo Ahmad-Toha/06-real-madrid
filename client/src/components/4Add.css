@@ -5,19 +5,10 @@
   display: flex !important;
 }
 
-.input-div {
-  display: flex !important;
-  flex-direction: column !important;
-}
-
 @media only screen and (max-width: 350px) {
   .add-form {
-    width: 100% !important;
-    height: 100vh !important;
-    color: white !important;
-    background-color: black !important;
-    padding: 1.2rem !important;
-    border-radius: 0 !important;
+    width: 85% !important;
+    margin: 5rem auto 0 auto !important;
   }
 
   .add-form .back {
@@ -36,15 +27,21 @@
     margin-bottom: 0.6rem !important;
   }
 
+  .input-div {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
   .input-div label {
     font-size: 0.9rem !important;
+    color: #ffffff;
   }
 
   .input-div input {
     font-size: 0.9rem !important;
     text-transform: capitalize !important;
     padding: 0.6rem !important;
-    border: 2px solid rgb(0, 0, 0) !important;
+    border: 1px solid rgb(86, 85, 81) !important;
     border-radius: 0.4rem !important;
     outline: none !important;
     margin-bottom: 0.3rem !important;
@@ -72,12 +69,8 @@
 
 @media only screen and (min-width: 350px) {
   .add-form {
-    width: 100% !important;
-    height: 100vh !important;
-    color: white !important;
-    background-color: black !important;
-    padding: 1.2rem !important;
-    border-radius: 0 !important;
+    width: 80% !important;
+    margin: 5rem auto 0 auto !important;
   }
 
   .add-form .back {
@@ -96,18 +89,150 @@
     margin-bottom: 0.6rem !important;
   }
 
+  .input-div {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
   .input-div label {
     font-size: 0.9rem !important;
+    color: #ffffff;
   }
 
   .input-div input {
     font-size: 0.9rem !important;
     text-transform: capitalize !important;
     padding: 0.6rem !important;
-    border: 2px solid rgb(0, 0, 0) !important;
+    border: 1px solid rgb(86, 85, 81) !important;
     border-radius: 0.4rem !important;
     outline: none !important;
     margin-bottom: 0.3rem !important;
+  }
+
+  .button-div {
+    margin-top: 1.5rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .button-div button {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    width: 75% !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: transparent !important;
+    padding: 0.6rem !important;
+    border: 1.5px solid white !important;
+    border-radius: 0.3rem !important;
+    cursor: pointer !important;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .add-form {
+    width: 75% !important;
+    margin: 5rem auto 0 auto !important;
+  }
+
+  .add-form .back {
+    font-size: 0.9rem !important;
+    text-decoration: none !important;
+    color: white !important;
+    cursor: pointer;
+  }
+
+  .add-form h1 {
+    font-size: 1.5rem !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    color: rgb(255, 255, 255);
+    margin-top: 2rem !important;
+    margin-bottom: 0.6rem !important;
+  }
+
+  .input-div {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .input-div label {
+    font-size: 0.9rem !important;
+    color: #ffffff;
+  }
+
+  .input-div input {
+    font-size: 0.9rem !important;
+    text-transform: capitalize !important;
+    padding: 0.6rem !important;
+    border: 1px solid rgb(86, 85, 81) !important;
+    border-radius: 0.4rem !important;
+    outline: none !important;
+    margin-bottom: 0.3rem !important;
+  }
+
+  .button-div {
+    margin-top: 1.5rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .button-div button {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    width: 75% !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: transparent !important;
+    padding: 0.6rem !important;
+    border: 1.5px solid white !important;
+    border-radius: 0.3rem !important;
+    cursor: pointer !important;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .add-form {
+    width: auto !important;
+    margin: 5rem auto 0 auto !important;
+  }
+
+  .add-form .back {
+    font-size: 1rem !important;
+    text-decoration: none !important;
+    color: white !important;
+    cursor: pointer;
+  }
+
+  .add-form h1 {
+    font-size: 1.8rem !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    color: rgb(255, 255, 255);
+    margin-top: 2rem !important;
+    margin-bottom: 0.8rem !important;
+  }
+
+  .input-div {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .input-div label {
+    font-size: 1rem !important;
+    color: #ffffff;
+  }
+
+  .input-div input {
+    width: 350px;
+    height: 48px;
+    font-size: 1rem !important;
+    text-transform: capitalize !important;
+    padding: 0.8rem !important;
+    border: 1px solid rgb(86, 85, 81) !important;
+    border-radius: 0.4rem !important;
+    outline: none !important;
+    margin-bottom: 0.5rem !important;
   }
 
   .button-div {
