@@ -40,8 +40,8 @@ const Add = () => {
     <>
       <div className="form-div">
         <div className="add-form">
-          <Link to={"/"}>
-            <i className="fa-solid fa-arrow-left"></i>
+          <Link to={"/"} className="back">
+            Back
           </Link>
           <h1>Add new player</h1>
           <form onSubmit={submitForm}>

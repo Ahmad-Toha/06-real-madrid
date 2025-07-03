@@ -1,72 +1,71 @@
-@media only screen and (max-width: 350px) {
-}
-
 .form-div {
-  width: 100%;
-  height: 100vh;
-  background-color: rgb(86, 85, 81);
-  display: flex;
-}
-
-.add-form {
-  width: 25%;
-  height: 45rem;
-  color: white;
-  background-color: black;
-  padding: 4rem;
-  border-radius: 0.5rem;
-  margin: 6rem auto;
-}
-
-.add-form a i {
-  font-size: 1.2rem;
-  color: white;
-}
-
-.add-form h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: rgb(255, 255, 255);
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  width: 100vw !important;
+  height: 100vh !important;
+  background-color: rgb(86, 85, 81) !important;
+  display: flex !important;
 }
 
 .input-div {
-  margin-bottom: 0.8rem;
-  display: flex;
-  flex-direction: column;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
-.input-div label {
-  font-size: 1.1rem;
-  margin-bottom: 0.2rem;
-}
+@media only screen and (max-width: 350px) {
+  .add-form {
+    width: 100% !important;
+    height: 100vh !important;
+    color: white !important;
+    background-color: black !important;
+    padding: 1.2rem !important;
+    border-radius: 0 !important;
+  }
 
-.input-div input {
-  font-size: 1rem;
-  text-transform: capitalize;
-  padding: 0.8rem;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 0.4rem;
-  outline: none;
-}
+  .add-form .back {
+    font-size: 0.9rem !important;
+    text-decoration: none !important;
+    color: white !important;
+    cursor: pointer;
+  }
 
-.button-div {
-  margin-top: 2.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .add-form h1 {
+    font-size: 1.5rem !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    color: rgb(255, 255, 255);
+    margin-top: 2rem !important;
+    margin-bottom: 0.6rem !important;
+  }
 
-.button-div button {
-  font-size: 1.1rem;
-  font-weight: 700;
-  width: 13rem;
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
-  padding: 0.8rem;
-  border: none;
-  border-radius: 0.3rem;
-  margin-bottom: 3rem;
-  cursor: pointer;
+  .input-div label {
+    font-size: 0.9rem !important;
+  }
+
+  .input-div input {
+    font-size: 0.9rem !important;
+    text-transform: capitalize !important;
+    padding: 0.6rem !important;
+    border: 2px solid rgb(0, 0, 0) !important;
+    border-radius: 0.4rem !important;
+    outline: none !important;
+    margin-bottom: 0.3rem !important;
+  }
+
+  .button-div {
+    margin-top: 1.5rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .button-div button {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    width: 75% !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: transparent !important;
+    padding: 0.6rem !important;
+    border: 1.5px solid white !important;
+    border-radius: 0.3rem !important;
+    cursor: pointer !important;
+  }
 }
